@@ -11,8 +11,8 @@ for record in csv_file:
     bonus = (salary * bonus_rate)
     pay = (salary + bonus)
     
-print(f'first Name: {record[1]}')
-print(f'last  Name: {record[2]}')
+print(f'First Name: {record[1]}')
+print(f'Last  Name: {record[2]}')
 print(f'Salary:\t${salary:10,.2f}')
 print(f'Bonus:\t${bonus: 10,.2f}')
 print(f'Pay:\t${pay:10,.2f}')
